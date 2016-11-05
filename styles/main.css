@@ -14,6 +14,7 @@ body {
     color: white;
     min-height: 100%;
 }
+/* Navbar 0 starts */
 
 .navbar {
     position: relative;
@@ -56,6 +57,184 @@ body {
  }
  
  .links-container .navbar-link:hover {
+     color: rgb(233,50,117);
+ }
+
+/* Navbar 0 ends */
+/* Navbar 1 starts */
+
+.navbar1 {
+    position: relative;
+    padding: 0.5rem;
+    background-color: rgba(94,13,215,0.5);
+    z-index: 1;
+}
+
+.navbar1 > .logo {
+    position: relative;
+    left: 2rem;
+    cursor: pointer;
+}
+
+ .navbar1 .links-container {
+     display: table;
+     position: absolute;
+     top: 0;
+     right: 0;
+     height: 100px;
+     color: white;
+     text-decoration: none;
+ }
+
+
+/* Navbar 1 ends */
+
+
+/* Navbar 2 starts */
+.navbar2 {
+    position: relative;
+    padding: 0.5rem;
+    background-color: rgba(13,154,215,0.5);
+    z-index: 1;
+}
+
+.navbar2 > .logo {
+    position: relative;
+    left: 2rem;
+    cursor: pointer;
+}
+
+ .navbar2 .links-container {
+     display: table;
+     position: absolute;
+     top: 0;
+     right: 0;
+     height: 100px;
+     color: white;
+     text-decoration: none;
+ }
+
+/* Navbar 2 ends */
+
+/* Navbar 3 starts */
+.navbar3 {
+    position: relative;
+    padding: 0.5rem;
+    background-color: rgba(49,206,38,0.5);
+    z-index: 1;
+}
+
+.navbar3 > .logo {
+    position: relative;
+    left: 2rem;
+    cursor: pointer;
+}
+
+ .navbar3 .links-container {
+     display: table;
+     position: absolute;
+     top: 0;
+     right: 0;
+     height: 100px;
+     color: white;
+     text-decoration: none;
+ }
+/* Navbar 3 ends */
+
+/* Navbar 4 starts */
+.navbar4 {
+    position: relative;
+    padding: 0.5rem;
+    background-color: rgba(227,252,4,0.5);
+    z-index: 1;
+}
+
+.navbar4 > .logo {
+    position: relative;
+    left: 2rem;
+    cursor: pointer;
+}
+
+ .navbar4 .links-container {
+     display: table;
+     position: absolute;
+     top: 0;
+     right: 0;
+     height: 100px;
+     color: white;
+     text-decoration: none;
+ }
+/* Navbar 4 ends */
+
+/* Navbar 5 starts */
+.navbar5 {
+    position: relative;
+    padding: 0.5rem;
+    background-color: rgba(236,138,25,0.5);
+    z-index: 1;
+}
+
+.navbar5 > .logo {
+    position: relative;
+    left: 2rem;
+    cursor: pointer;
+}
+
+ .navbar5 .links-container {
+     display: table;
+     position: absolute;
+     top: 0;
+     right: 0;
+     height: 100px;
+     color: white;
+     text-decoration: none;
+ }
+/* Navbar 5 ends */
+
+/* Navbar 6 starts */
+.navbar6 {
+    position: relative;
+    padding: 0.5rem;
+    background-color: rgba(233,30,8,0.5);
+    z-index: 1;
+}
+
+.navbar6 > .logo {
+    position: relative;
+    left: 2rem;
+    cursor: pointer;
+}
+
+ .navbar6 .links-container {
+     display: table;
+     position: absolute;
+     top: 0;
+     right: 0;
+     height: 100px;
+     color: white;
+     text-decoration: none;
+ }
+/* Navbar 6 ends */
+
+ 
+ .links-container .navbar1-link {
+     display: table-cell;
+     position: relative;
+     height: 100%;
+     padding-left: 1rem;
+     padding-right: 1rem;
+     vertical-align: middle;
+     color: white;
+     font-size: 0.625rem;
+     letter-spacing: 0.05rem;
+     font-weight: 700;
+     text-transform: uppercase;
+     /* #3 */
+     text-decoration: none;
+     cursor: pointer;
+ }
+ 
+ .links-container .navbar1-link:hover {
      color: rgb(233,50,117);
  }
 

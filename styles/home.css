@@ -1,0 +1,8 @@
+body.home {
+     background-image: url(../assets/images/homebackground.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center center;
+     background-size: cover;
+     padding-bottom: 200px;
+ }
